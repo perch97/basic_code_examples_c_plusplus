@@ -11,7 +11,7 @@ int main(){
         return 1;//std::exit(1);
     }
     char c;
-    while(in_file.get(c)){ //  !in_file.eof()
+    while(in_file.get(c)){ 
         std::cout<<c;
     }
     
